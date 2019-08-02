@@ -1,0 +1,18 @@
+body {
+  background-color: darkgrey;
+  background: rgba(0,0,0,.3) url("https://static.tvtropes.org/pmwiki/pub/images/dannys.png");
+  opacity: .4;
+}
+main{
+    opacity: 1;
+}
+h1 {
+    font-family: 'Saira Stencil One', cursive;
+    color: black;
+    text-align: center;
+}
+
+p {
+ font-family: 'Muli', sans-serif;
+  font-size: 20px;
+}
