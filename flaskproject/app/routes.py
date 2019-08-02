@@ -113,10 +113,10 @@ def results():
     elif score == 50:
         message = "For shame"
     elif score == 40 or score == 30 or score == 20 or score == 10 or score == 0:
-        messafe = "Why are you taking this?"
+        message = "Why are you taking this?"
         
 
 
-    return render_template("/results.html", choice1 = choice1,  choice2 = choice2,choice3 = choice3, choice4 = choice4, choice5 = choice5, choice6 = choice6, choice7 = choice7, choice8 = choice8, choice9 = choice9, chocice10 = choice10, c1 = c1, c2 = c2, c3 = c3,c4 = c4,c5 =c5, c6 = c6, c7 = c7, c8 = c8, c9 = c9,c10 = c10, score = score, message = message)
+    return render_template("/results.html", c1 = c1, c2 = c2, c3 = c3,c4 = c4,c5 =c5, c6 = c6, c7 = c7, c8 = c8, c9 = c9,c10 = c10, score = score, message = message)
 
 
